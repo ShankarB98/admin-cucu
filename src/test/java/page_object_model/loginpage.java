@@ -1,8 +1,11 @@
 package page_object_model;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.apache.*;
 
 public class loginpage {
 	WebDriver driver;
@@ -177,7 +180,7 @@ public class loginpage {
 		public void clickonSave1() {
 		driver.findElement(btnSave).click();
 		}
-		}
+		
 
 
 

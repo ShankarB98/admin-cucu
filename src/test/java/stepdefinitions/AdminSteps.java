@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
+
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import page_object_model.loginpage;
@@ -44,7 +45,7 @@ public class AdminSteps {
 	Assert.assertTrue(false);
 	}
 	else{
-	Assert.assertEquals(title,driver.getTitle());
+		Assert.assertEquals(title,driver.getTitle());
 	}
 	
 	@When("User click on Log out link")
