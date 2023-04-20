@@ -7,7 +7,7 @@ git 'https://github.com/ShankarB98/admin-cucu'
 
 stage('compile-package'){
 
-sh 'mvn package'
+bat 'mvn package'
 }
 
 
